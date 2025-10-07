@@ -1,0 +1,6 @@
+# Process compose for synthetic testing data
+version: "0.5"
+
+processes:
+  test-data:
+   command: ./scripts/test-data.elv

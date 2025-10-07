@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.15.1/.schema/devbox.schema.json",
+    "packages": [
+        "gleam@latest",
+        "erlang@latest",
+        "rebar3@latest",
+        "elvish@latest"
+    ],
+    "env": {
+        "DATA_DIR": "./data"
+    },
+    "shell": {
+        "init_hook": [
+            "echo 'Welcome to devbox!' > /dev/null"
+        ],
+        "scripts": {
+            "test": [
+                "echo \"Error: no test specified\" && exit 1"
+            ]
+        }
+    }
+}
