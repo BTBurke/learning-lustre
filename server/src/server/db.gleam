@@ -2,7 +2,7 @@ import gleam/dynamic/decode
 import gleam/option
 import gleam/time/calendar
 import gleam/time/timestamp
-import record.{type Record}
+import server/record.{type Record}
 import sqlight.{type Connection}
 
 /// Set up the Sqlite database to accept switch records

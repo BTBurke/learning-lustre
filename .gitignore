@@ -1,2 +1,3 @@
 .devbox/
 .jj/
+./server/build/*

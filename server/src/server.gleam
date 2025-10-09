@@ -1,4 +1,3 @@
-import db
 import gleam/bit_array
 import gleam/erlang/process
 import gleam/http
@@ -8,7 +7,8 @@ import gleam/option.{None}
 import gleam/result
 import gleam/string
 import mist
-import record
+import server/db
+import server/record
 import sqlight
 import wisp.{type Request, type Response}
 import wisp/wisp_mist

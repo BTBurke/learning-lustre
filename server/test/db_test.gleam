@@ -1,8 +1,8 @@
-import db
 import gleam/list
 import gleam/option.{None, Some}
 import gleam/time/timestamp
-import record.{Failure, Record, Success}
+import server/db
+import server/record.{Failure, Record, Success}
 import sqlight
 
 pub fn insert_records_test() {
